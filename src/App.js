@@ -396,7 +396,7 @@ function App() {
             )}
 
             <header className="mb-6">
-                <h1 className="text-3xl font-bold text-center text-blue-600 dark:text-blue-400">Blind Pricer Deluxe</h1>
+                <h1 className="text-3xl font-bold text-center text-blue-600 dark:text-blue-400">Costing Management Module - Odidor</h1>
                 {/* Removed User ID display */}
             </header>
 
@@ -502,7 +502,7 @@ function App() {
             </div>
 
             <footer className="mt-12 text-center text-sm text-gray-500 dark:text-gray-400">
-                <p>&copy; {new Date().getFullYear()} ERP Pricing Module. For demonstration purposes.</p>
+                <p>&copy; {new Date().getFullYear()} ERP Pricing Module. <a href="https://odidor.app" target="_blank" rel="noopener noreferrer">Odidor</a></p>
             </footer>
         </div>
     );
